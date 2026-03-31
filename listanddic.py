@@ -33,6 +33,7 @@ slice4 = nums[::2]      # [0, 2, 4, 6, 8] (every 2nd)
 slice5 = nums[1::2]     # [1, 3, 5, 7, 9]
 slice6 = nums[::-1]     # [9, 8, 7, 6, 5, 4, 3, 2, 1, 0] (reversed)
 slice7 = nums[7:2:-1]   # [7, 6, 5, 4, 3]
+slice8 = nums[5:0:-2]   # [5, 3, 1]
 print("Slice examples:", slice1, slice6)
 
 # --- 4. Modifying Lists ---
